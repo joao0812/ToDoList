@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #9c71ff63;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 180px auto;
+    flex-direction: column;
+}
+
+.to-do {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 350px;
+    height: 120px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #AB96F7, #A3C2FD, #B966DE  );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.activityContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+}
+
+.addContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.to-do button {
+    width: 55px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #9060ff;
+    border: none;
+}
+.to-do button:hover {
+    background-color: #b291ff;
+}
+.to-do button:active {
+    background-color: #9774e9;
+}
+
+.to-do input[type='text'] {
+    width: 200px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.activityList {
+    
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    background-color: #FFFFFF;
+    width: 340px;
+    padding: 10px 20px;
+    min-height: 30px;
+    border-radius: 25px;
+    display: none;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itens img {
+    width: 20px;
+    background-color: #9060ff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.itens img:hover {
+    background-color: #b291ff;
+}
+.itens img:active {
+    background-color: #9774e9;
+}
+.itensText {
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    width: 80%;
+}
