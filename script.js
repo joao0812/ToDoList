@@ -15,7 +15,9 @@ const addActivity = () => {
 
 const deleta = (evento) => {
     document.getElementById(`item${evento}`).remove()
-    
+    if (document.querySelectorAll('[id*=item]').length == 0) {
+        list.style.display = 'none'
+    }
     
     
 }
